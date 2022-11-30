@@ -1,8 +1,8 @@
 package com.oo101;
 
 public class Vehicle {
-    String name;
-    int speed;
+    final String name;
+    final int speed;
 
     public Vehicle(String name, int speed) {
         this.name = name;
